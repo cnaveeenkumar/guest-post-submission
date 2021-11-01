@@ -1,0 +1,44 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+#gps-form label {
+  width: 100%;
+  display: block;
+}
+#gps-form input[type="text"] {
+  width: 100%;
+  display: block;
+}
+#gps-form select {
+  width: 100%;
+  display: block;
+}
+#gps-form .input-group {
+  padding: 10px 0;
+}
+#gps-form .wp-editor-container textarea.wp-editor-area {
+  height: 150px;
+}
+.success {
+  color: #008000;
+  border: 1px solid #008000;
+  padding: 10px;
+  text-align: center;
+}
+.error {
+  color: #ff0000;
+  border: 1px solid #ff0000;
+  padding: 10px;
+  text-align: center;
+}
+.btn-readmore {
+  background-color: #4d4949;
+  color: #fff;
+  padding: 7px 12px;
+  text-decoration: none;
+}
+.gpsblog__item {
+  padding: 10px;
+  margin-bottom: 20px;
+}
